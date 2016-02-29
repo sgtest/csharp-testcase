@@ -10,7 +10,6 @@
     "url": "git://github.com/aspnet/proxy"
   },
   "dependencies": {
-    "Microsoft.AspNet.Http.Abstractions": "1.0.0-rc1-final"
   },
   "frameworks": {
     "net451": {
@@ -19,9 +18,9 @@
       }
     },
     "dotnet5.4": {
-      "dependencies": {
-        "System.Net.Http": "4.0.1-beta-23516"
-      }
+        "dependencies": {
+           "System.Net.Http": "4.0.1-beta-23516"
+        }
     }
   }
 }
